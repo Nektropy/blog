@@ -17,25 +17,6 @@
   
   
   <entry>
-    <title>赛博算卦</title>
-    <link href="/%E8%B5%9B%E5%8D%9A%E7%AE%97%E5%8D%A6/"/>
-    <url>/%E8%B5%9B%E5%8D%9A%E7%AE%97%E5%8D%A6/</url>
-    
-    <content type="html"><![CDATA[<h1 id="赛博算卦器-基于现代技术的易经占卜工具"><a href="#赛博算卦器-基于现代技术的易经占卜工具" class="headerlink" title="赛博算卦器 - 基于现代技术的易经占卜工具"></a>赛博算卦器 - 基于现代技术的易经占卜工具</h1><h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><p>赛博算卦器是一款将传统易经文化与现代前端技术相结合的创新应用，通过算法模拟传统算卦过程，为用户提供便捷的卦象解读服务。</p><h2 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h2><ul><li><strong>智能算卦</strong>：基于用户输入的问题内容和当前时间生成卦象</li><li><strong>随机算卦</strong>：完全随机生成卦象，适合快速体验</li><li><strong>卦象展示</strong>：直观显示上下卦、动爻和完整卦象信息</li><li><strong>卦辞解读</strong>：提供详细的卦象含义和爻辞解释</li></ul><h2 id="技术实现"><a href="#技术实现" class="headerlink" title="技术实现"></a>技术实现</h2><h3 id="算卦算法"><a href="#算卦算法" class="headerlink" title="算卦算法"></a>算卦算法</h3><p>程序采用传统易经的三数起卦法：</p><ul><li>生成三个100-999之间的随机数</li><li>第一个数除以8的余数决定上卦（1-8对应八卦）</li><li>第二个数除以8的余数决定下卦</li><li>第三个数除以6的余数决定动爻（1-6爻）</li><li>上下卦组合形成64卦之一</li></ul><h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3><ul><li><strong>前端框架</strong>：纯HTML5 + CSS3 + JavaScript</li><li><strong>样式设计</strong>：赛博朋克风格UI，霓虹色彩主题</li><li><strong>数据存储</strong>：本地存储卦象映射数据</li><li><strong>响应式设计</strong>：支持移动端和桌面端访问</li></ul><h2 id="使用指南"><a href="#使用指南" class="headerlink" title="使用指南"></a>使用指南</h2><h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><ol><li>在输入框中输入想要咨询的问题</li><li>点击”开始算卦”按钮（基于问题内容生成）</li><li>或点击”随机算卦”按钮（完全随机生成）</li><li>等待1.5秒计算过程后查看结果</li></ol><h3 id="卦象解读"><a href="#卦象解读" class="headerlink" title="卦象解读"></a>卦象解读</h3><p>结果显示包含：</p><ul><li>上卦和下卦的卦名与符号</li><li>动爻位置（第几爻）</li><li>完整卦象名称</li><li>卦象基本含义和爻辞解释</li></ul><h2 id="设计理念"><a href="#设计理念" class="headerlink" title="设计理念"></a>设计理念</h2><h3 id="传统与现代融合"><a href="#传统与现代融合" class="headerlink" title="传统与现代融合"></a>传统与现代融合</h3><p>项目遵循传统易经占卜的八大准则：</p><ol><li>心诚则灵 - 起卦时需专注、心无杂念</li><li>一事一卦 - 同一问题短期内不重复占卜</li><li>不占恶事 - 不占违法悖德之事</li><li>不占戏谑 - 不拿算卦开玩笑</li><li>不占已定之事 - 结果已定或无法改变的事不占</li><li>不占生死 - 避免涉及他人寿命等敏感问题</li><li>重德轻术 - 重视道德修养而非依赖占卜</li><li>趋吉避凶 - 以卦象为参考，积极调整行为</li></ol><h3 id="用户体验优化"><a href="#用户体验优化" class="headerlink" title="用户体验优化"></a>用户体验优化</h3><ul><li>加载动画模拟传统算卦的仪式感</li><li>Unicode卦象符号与CSS备选方案双重保障</li><li>响应式布局确保多设备兼容性</li><li>直观的视觉反馈和交互效果</li></ul><h2 id="项目意义"><a href="#项目意义" class="headerlink" title="项目意义"></a>项目意义</h2><p>赛博算卦器不仅是一个技术演示项目，更是传统文化数字化的一次尝试。它展示了如何用现代技术手段传承和重新诠释古老智慧，让易经文化以更易接触的形式呈现给当代用户。</p><h2 id="免责声明"><a href="#免责声明" class="headerlink" title="免责声明"></a>免责声明</h2><p>本程序仅供娱乐和文化学习用途，卦象解释仅供参考，不应作为重要决策的唯一依据。</p><hr><p><em>项目版本：v1.0</em><br><em>开发团队：熵的赛博算卦实验室</em><br><em>更新时间：2026年2月</em></p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>工具</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>python笔记</title>
     <link href="/python%E7%AC%94%E8%AE%B0/"/>
     <url>/python%E7%AC%94%E8%AE%B0/</url>
