@@ -16,24 +16,5 @@
   
   
   
-  <entry>
-    <title>python笔记</title>
-    <link href="/python%E7%AC%94%E8%AE%B0/"/>
-    <url>/python%E7%AC%94%E8%AE%B0/</url>
-    
-    <content type="html"><![CDATA[<hr><hr><p><em>我将在这里记录一些python的学习笔记，方便参考与查阅</em></p><hr><h2 id="国际通用编程习惯"><a href="#国际通用编程习惯" class="headerlink" title="国际通用编程习惯"></a>国际通用编程习惯</h2><h3 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h3><h4 id="1-变量"><a href="#1-变量" class="headerlink" title="1.变量"></a>1.变量</h4><p>小写字母，下划线，空格<br><code>&#39;max_value = &#39;100&#39;</code></p><h4 id="2-常量"><a href="#2-常量" class="headerlink" title="2.常量"></a>2.常量</h4><p>全大写<br><code>MAX_CONNECTIONS = 100</code></p><h4 id="3-类class"><a href="#3-类class" class="headerlink" title="3.类class"></a>3.类class</h4><p>驼峰命名</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">class</span> <span class="hljs-title class_">InvalidInputError</span>(<span class="hljs-title class_ inherited__">Exception</span>):<br>    <span class="hljs-keyword">pass</span><br></code></pre></td></tr></table></figure><h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><h4 id="1-缩进"><a href="#1-缩进" class="headerlink" title="1.缩进"></a>1.缩进</h4><p>4个空格</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">calculate_average</span>(<span class="hljs-params">numbers</span>):<br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> numbers:<br>        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span><br>    total = <span class="hljs-built_in">sum</span>(numbers)<br>    count = <span class="hljs-built_in">len</span>(numbers)<br>    <span class="hljs-keyword">return</span> total / count<br></code></pre></td></tr></table></figure><h4 id="2-字符串格式化"><a href="#2-字符串格式化" class="headerlink" title="2.字符串格式化"></a>2.字符串格式化</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 使用f-string（Python 3.6+）</span><br>name = <span class="hljs-string">&quot;Alice&quot;</span><br>age = <span class="hljs-number">30</span><br>message = <span class="hljs-string">f&quot;My name is <span class="hljs-subst">&#123;name&#125;</span> and I&#x27;m <span class="hljs-subst">&#123;age&#125;</span> years old.&quot;</span><br><br><span class="hljs-comment"># 或者使用str.format()</span><br>message = <span class="hljs-string">&quot;My name is &#123;&#125; and I&#x27;m &#123;&#125; years old.&quot;</span>.<span class="hljs-built_in">format</span>(name, age)<br></code></pre></td></tr></table></figure><h4 id="3-交换变量"><a href="#3-交换变量" class="headerlink" title="3.交换变量"></a>3.交换变量</h4><p><code>a, b = b, a</code></p><h4 id="4-主程序保护"><a href="#4-主程序保护" class="headerlink" title="4.主程序保护"></a>4.主程序保护</h4><p>使用if <strong>name</strong> &#x3D;&#x3D; “<strong>main</strong>“</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    <span class="hljs-string">&quot;&quot;&quot;主程序入口&quot;&quot;&quot;</span><br>    <span class="hljs-comment"># 主程序逻辑</span><br>    <span class="hljs-keyword">pass</span><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&quot;__main__&quot;</span>:<br>    main()<br></code></pre></td></tr></table></figure><hr><p>查询更多请点击<a href="https://docs.python.org/zh-cn/3.14/" title="跳转到python官网">官方文档</a></p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>笔记</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
   
 </search>
